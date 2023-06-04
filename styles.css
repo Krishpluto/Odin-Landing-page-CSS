@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling for header */
+#logo{
+    height: 84px;
+    width: 84px;
+}
+.header-logo{
+    font-size: 24px;
+    color: #F9FAf8;
+}
+.navbox{
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
+}
+.header-links{
+    display: flex;
+    flex-direction: row;
+    margin-left: 900px;
+}
+
+.header-links a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+    color: #F9FAf8;
+    font-size: 18px;
+    font-family: 'Roboto', arial;
+
+}
+
+/* Styling for seconddiv and image and text near img */
+
+.seconddiv{
+    display: flex;
+
+    background-color: #1F2937;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    position: center;
+
+    
+}
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAf8;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    position: relative;
+    right: -100px; 
+    margin-top: 200px;
+    font-family: 'Roboto', arial;
+    max-width: 40%;
+}
+.hero-content p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    right: -100px; 
+    margin-top: 10px;
+    font-family: 'Roboto', arial;
+    max-width: 70%;
+}
+.hero-content button{
+    background-color: #3882F6;
+    color: #F9FAf8;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    width: 110px;
+    font-weight: bold;
+    position: relative;
+    right: -110px; 
+}
+.hero-img {
+    margin-left: 5px;
+    position: relative;
+    left: -95px; /* Adjust the value as per your requirement */
+}
+
+/* Boxes Div */
+
+h2{
+    font-size: 36px;
+    font-family: 'Roboto', arial;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+
+.boxesdiv{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    
+}
+
+#contentimg {
+    height: 250px;
+    width: 250px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border-radius: 25px;
+    border: 5px solid #1F2937;
+}
+.boxesdiv p{
+    text-align: center;
+    font-family: 'Roboto', arial;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 10px;
+    margin: 50px auto;
+    
+}
+
+/* quote part */
+
+.quotediv{
+    font-size: 36px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-weight: 300; /* Light font weight */
+    font-style: italic; /* Italic font style */
+    padding: 50px;
+
+}
+
+/* keep me updated signupdiv*/
+
+.signupdiv{
+    background-color: #3882F6;
+    margin: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    border-radius: 25px;
+
+}
+
+.signup-text{
+    padding: 80px;
+    padding-bottom: 70px;
+    font-family: 'Roboto', arial;
+    color: #F9FAf8;
+    
+}
+
+.signup-text h3{
+    font-size: 20px;
+}
+
+.signup-text p{
+    font-size: 16px;
+}
+.signup-btn{
+    padding: 70px;
+
+}
+
+.signup-btn button{
+    background-color: #3882F6;
+    color: #F9FAf8;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: block;
+    width: 150px;
+    font-weight: bold;
+    position: relative;
+    font-size: 15px;
+    right: -100px; 
+}
+
+/*  Footer */
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+  
+ 
